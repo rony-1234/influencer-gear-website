@@ -126,13 +126,18 @@
    gap: 60px;
    justify-content: center;
    align-items: center;
-   margin: 0 auto;
+   margin-top: 70px;
    padding: 70px 100px;
+   border:1px solid;
+   border-image: linear-gradient(to right, transparent,rgba(128,128,128,0.438),transparent);
+   border-left: 0;
+   border-right: 0;
+   border-image-slice: 1;
   
   
  }
  .sponsor-container img{
-   fill: linear-gradient(135deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
+   /* fill: linear-gradient(135deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%); */
 
  }
  /* populer */
